@@ -24,4 +24,4 @@ jobs:
           context: .
           platforms: linux/amd64,linux/arm64
           push: false
-          tags: ghcr.io/zowks/epitech-devcontainer:latest
+          tags: ghcr.io/a9ex/epitech-devcontainer:latest
