@@ -1,4 +1,3 @@
-pulseaudio
 allegro5
 allegro5-devel
 autoconf
@@ -82,6 +81,7 @@ php-theseer-tokenizer.noarch
 php-xml
 php
 procps-ng
+pulseaudio
 python3-devel
 python3
 rlwrap
