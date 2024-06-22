@@ -32,6 +32,7 @@ ENV LANG=en_US.utf8 LANGUAGE=en_US:en LC_ALL=en_US.utf8 PKG_CONFIG_PATH=/usr/loc
 RUN groupadd --gid 1000 tek \
     && useradd tek --uid 1000 --gid tek --password "" \
     && usermod -aG wheel tek
+    && usermod -aG sound tek
 USER tek
 
 RUN sh -c "$(curl -fsSL https://install.ohmyz.sh/)" "" --unattended
