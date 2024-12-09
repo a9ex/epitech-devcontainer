@@ -122,6 +122,7 @@ python3-pip
 python3-pycryptodome
 python3-pyte
 python3-requests
+python3-venv
 python3-yaml
 qt6-base-dev
 qt6-base-dev-tools

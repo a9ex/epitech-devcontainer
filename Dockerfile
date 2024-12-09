@@ -4,7 +4,7 @@ FROM ghcr.io/epitech/coding-style-checker:latest AS coding-style-checker
 # Install packages
 FROM ubuntu:mantic AS base
 LABEL maintainer="zowks <https://github.com/zowks>"
-LABEL org.opencontainers.image.source="https://github.com/zowks/epitech-devcontainer"
+LABEL org.opencontainers.image.source="https://github.com/a9ex/epitech-devcontainer"
 
 COPY ./apt.packages /tmp/apt.packages
 # Ubuntu mantic reached EOL, so we need to change the sources.list to use old-releases.ubuntu.com instead
