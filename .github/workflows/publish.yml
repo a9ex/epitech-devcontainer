@@ -15,8 +15,6 @@ jobs:
         include:
           - runner: ubuntu-latest
             platform: amd64
-          - runner: self-hosted
-            platform: arm64
 
     runs-on: ${{ matrix.runner }}
     steps:
